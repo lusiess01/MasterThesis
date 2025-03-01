@@ -1,0 +1,12 @@
+clear all 
+close all
+clc
+
+%%
+
+l=100;
+Re=0.8502*(l/1000); %coil resistance 34AWG ==> 0.160mm ==> 0.020106mm2 ==> 0.8502Ohm/km
+Le=1e-6;  %coil inductance
+
+cm=5.6e-04;
+rm=0;
