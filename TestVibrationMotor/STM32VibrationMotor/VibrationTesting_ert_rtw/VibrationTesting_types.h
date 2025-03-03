@@ -7,9 +7,9 @@
  *
  * Code generation for model "VibrationTesting".
  *
- * Model version              : 11.7
+ * Model version              : 11.8
  * Simulink Coder version : 24.2 (R2024b) 21-Jun-2024
- * C source code generated on : Fri Feb 28 14:34:09 2025
+ * C source code generated on : Mon Mar  3 23:59:03 2025
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping

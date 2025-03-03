@@ -1,1 +1,0 @@
-var reportPages = [["Summary","VibrationTesting_survey.html"],["Subsystem Report","VibrationTesting_subsystems.html"],["Code Interface Report","VibrationTesting_interface.html"]];

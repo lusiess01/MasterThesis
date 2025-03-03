@@ -2,7 +2,7 @@
 ## Makefile generated for component 'VibrationTesting'. 
 ## 
 ## Makefile     : VibrationTesting.mk
-## Generated on : Fri Feb 28 14:34:13 2025
+## Generated on : Mon Mar 03 23:41:44 2025
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/VibrationTesting.elf
 ## Product type : executable
 ## 
@@ -23,7 +23,7 @@ MAKEFILE                  = VibrationTesting.mk
 MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2024b
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2024b/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = D:/11_GIT/MasterThesis/STM32VibrationMotor
+START_DIR                 = D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0
@@ -274,7 +274,7 @@ CFLAGS += $(CFLAGS_SKIPFORSIL) $(CFLAGS_BASIC)
 # Linker
 #-----------
 
-LDFLAGS_ = @D:\11_GIT\MasterThesis\STM32V~1\VIBRAT~1\MBED_O~1.RSP
+LDFLAGS_ = @D:\11_GIT\MasterThesis\TESTVI~1\STM32V~1\VIBRAT~1\MBED_O~1.RSP
 LDFLAGS_SKIPFORSIL = -mcpu=cortex-m4 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv4-sp-d16 -mfloat-abi=hard --entry=Reset_Handler --specs=nano.specs --specs=nosys.specs -T"C:\ProgramData\MATLAB\SupportPackages\R2024b\toolbox\target\supportpackages\stmnucleo\registry\../mbed/NUCLEO_F401RE/TOOLCHAIN_GCC_ARM/STM32F401XE.ld"
 
 LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
@@ -283,7 +283,7 @@ LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
 # Shared Library Linker
 #--------------------------
 
-SHAREDLIB_LDFLAGS_ = @D:\11_GIT\MasterThesis\STM32V~1\VIBRAT~1\MBED_O~1.RSP
+SHAREDLIB_LDFLAGS_ = @D:\11_GIT\MasterThesis\TESTVI~1\STM32V~1\VIBRAT~1\MBED_O~1.RSP
 SHAREDLIB_LDFLAGS_SKIPFORSIL = -mcpu=cortex-m4 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv4-sp-d16 -mfloat-abi=hard --entry=Reset_Handler --specs=nano.specs --specs=nosys.specs -T"C:\ProgramData\MATLAB\SupportPackages\R2024b\toolbox\target\supportpackages\stmnucleo\registry\../mbed/NUCLEO_F401RE/TOOLCHAIN_GCC_ARM/STM32F401XE.ld"
 
 SHAREDLIB_LDFLAGS += $(SHAREDLIB_LDFLAGS_) $(SHAREDLIB_LDFLAGS_SKIPFORSIL)
@@ -301,7 +301,7 @@ CPPFLAGS += $(CPPFLAGS_SKIPFORSIL) $(CPPFLAGS_BASIC)
 # C++ Linker
 #---------------
 
-CPP_LDFLAGS_ = @D:\11_GIT\MasterThesis\STM32V~1\VIBRAT~1\MBED_O~1.RSP
+CPP_LDFLAGS_ = @D:\11_GIT\MasterThesis\TESTVI~1\STM32V~1\VIBRAT~1\MBED_O~1.RSP
 CPP_LDFLAGS_SKIPFORSIL = -mcpu=cortex-m4 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv4-sp-d16 -mfloat-abi=hard --entry=Reset_Handler --specs=nano.specs --specs=nosys.specs -T"C:\ProgramData\MATLAB\SupportPackages\R2024b\toolbox\target\supportpackages\stmnucleo\registry\../mbed/NUCLEO_F401RE/TOOLCHAIN_GCC_ARM/STM32F401XE.ld"
 
 CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
@@ -310,7 +310,7 @@ CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
 # C++ Shared Library Linker
 #------------------------------
 
-CPP_SHAREDLIB_LDFLAGS_ = @D:\11_GIT\MasterThesis\STM32V~1\VIBRAT~1\MBED_O~1.RSP
+CPP_SHAREDLIB_LDFLAGS_ = @D:\11_GIT\MasterThesis\TESTVI~1\STM32V~1\VIBRAT~1\MBED_O~1.RSP
 CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL = -mcpu=cortex-m4 -mthumb -mlittle-endian -mthumb-interwork -mfpu=fpv4-sp-d16 -mfloat-abi=hard --entry=Reset_Handler --specs=nano.specs --specs=nosys.specs -T"C:\ProgramData\MATLAB\SupportPackages\R2024b\toolbox\target\supportpackages\stmnucleo\registry\../mbed/NUCLEO_F401RE/TOOLCHAIN_GCC_ARM/STM32F401XE.ld"
 
 CPP_SHAREDLIB_LDFLAGS += $(CPP_SHAREDLIB_LDFLAGS_) $(CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL)
