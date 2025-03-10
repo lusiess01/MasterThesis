@@ -4,11 +4,18 @@ clc
 
 %% Parameter
 
-l=100;
-Re=0.8502*(l/1000); %coil resistance 34AWG ==> 0.160mm ==> 0.020106mm2 ==> 0.8502Ohm/km
-Le=1e-6;  %coil inductance
+f =40; % Hz
+rho = 1.68e-8;  % spezifischer Widerstand für Kupfer (Ω·m)
+l = 9.57;       % berechnete Drahtlänge (m)
+d = 0.00016;    % Durchmesser des Drahtes (m)
 
-m = 0.005;      % Masse [kg]
+% Querschnittsfläche des Drahtes
+A = (pi * (d^2)) / 4;
+
+Re = (rho * l) / A;
+Le=1e-9; 
+
+m = 0.004;      % Masse [kg]
 c = 0.7840;      % Dämpfung [Ns/m]
 k = 100;    % Federkonstante [N/m]
 
