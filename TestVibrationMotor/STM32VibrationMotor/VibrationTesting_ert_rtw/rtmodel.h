@@ -4,7 +4,7 @@
  * Code generation for Simulink model "VibrationTesting".
  *
  * Simulink Coder version                : 24.2 (R2024b) 21-Jun-2024
- * C source code generated on : Mon Mar  3 23:59:03 2025
+ * C source code generated on : Tue Mar 18 21:49:41 2025
  *
  * Note that the generated code is not dependent on this header file.
  * The file is used in cojuction with the automatic build procedure.

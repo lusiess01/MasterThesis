@@ -1,20 +1,20 @@
 VibrationTesting_data.o: \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_data.c \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_data.c \
  C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/mbed_config.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting.h \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h \
  C:/Program\ Files/MATLAB/R2024b/extern/include/tmwtypes.h \
  C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_extmode.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h \
  C:/Program\ Files/MATLAB/R2024b/simulink/include/sysran_types.h \
  C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_continuous.h \
  C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_solver.h \
  C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_continuous.h \
  C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_I2C.h \
  C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_types.h \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_types.h \
  C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h \
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h \
  C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/include/blapp_support.h \
  C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device/stm32f4xx.h \
  C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device/stm32f401xe.h \
@@ -92,22 +92,22 @@ VibrationTesting_data.o: \
  C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/STM32F401RE/include/MW_MbedPinInterface.h \
  C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/armcortexmbase/scheduler/include/SysTickScheduler.h \
  C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/armcortexmbase/scheduler/include/arm_cortex_m_multitasking.h \
- D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h
+ D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h
 C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/mbed_config.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h:
 C:/Program\ Files/MATLAB/R2024b/extern/include/tmwtypes.h:
 C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_extmode.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/rtwtypes.h:
 C:/Program\ Files/MATLAB/R2024b/simulink/include/sysran_types.h:
 C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_continuous.h:
 C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_solver.h:
 C:/Program\ Files/MATLAB/R2024b/simulink/include/rtw_continuous.h:
 C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_I2C.h:
 C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_types.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/VibrationTesting_types.h:
 C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h:
 C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/include/blapp_support.h:
 C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device/stm32f4xx.h:
 C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/TARGET_STM/TARGET_STM32F4/TARGET_STM32F401xE/device/stm32f401xe.h:
@@ -185,4 +185,4 @@ C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmn
 C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/stmnucleo/STM32F401RE/include/MW_MbedPinInterface.h:
 C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/armcortexmbase/scheduler/include/SysTickScheduler.h:
 C:/Program\ Files/MATLAB/R2024b/toolbox/target/shared/armcortexmbase/scheduler/include/arm_cortex_m_multitasking.h:
-D:/11_GIT/MasterThesis/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h:
+D:/11_GIT/MasterThesis/TestVibrationMotor/STM32VibrationMotor/VibrationTesting_ert_rtw/MW_target_hardware_resources.h:

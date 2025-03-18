@@ -7003,7 +7003,7 @@ Discarded input sections
  .debug_rnglists
                 0x00000000       0x19 mbed_syscalls.o
  .debug_line    0x00000000      0x147 mbed_syscalls.o
- .debug_str     0x00000000      0x241 mbed_syscalls.o
+ .debug_str     0x00000000      0x254 mbed_syscalls.o
  .comment       0x00000000       0x45 mbed_syscalls.o
  .debug_frame   0x00000000       0x38 mbed_syscalls.o
  .ARM.attributes
@@ -7027,7 +7027,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 xcp_platform_timer_mbed.o
  .debug_line    0x00000000      0x236 xcp_platform_timer_mbed.o
- .debug_str     0x00000000      0x296 xcp_platform_timer_mbed.o
+ .debug_str     0x00000000      0x2a9 xcp_platform_timer_mbed.o
  .comment       0x00000000       0x45 xcp_platform_timer_mbed.o
  .ARM.attributes
                 0x00000000       0x34 xcp_platform_timer_mbed.o
@@ -10717,7 +10717,7 @@ LOAD linker stubs
  .debug_ranges  0x00003020       0x10 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SYSTEM~2.O
  .debug_ranges  0x00003030       0x88 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/US_TIC~1.O
 
-.debug_line     0x00000000    0x33ac3
+.debug_line     0x00000000    0x33b35
  .debug_line    0x00000000      0xe20 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/AnalogIn.o
  .debug_line    0x00000e20      0x896 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CTHUNK~1.O
  .debug_line    0x000016b6      0x8de C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CALLCH~1.O
@@ -10767,106 +10767,106 @@ LOAD linker stubs
  .debug_line    0x00024882      0x6d8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/US_TIC~1.O
  .debug_line    0x00024f5a     0x11c5 MW_I2C.o
  .debug_line    0x0002611f      0x415 MW_GetPeripheralObjects.o
- .debug_line    0x00026534      0x9d6 xcp_ext_mode.o
- .debug_line    0x00026f0a      0xa2c VibrationTesting.o
- .debug_line    0x00027936       0xea VibrationTesting_data.o
- .debug_line    0x00027a20      0x721 ert_main.o
- .debug_line    0x00028141      0xaf8 xcp_ext_common.o
- .debug_line    0x00028c39      0xa9c xcp_ext_classic_trigger.o
- .debug_line    0x000296d5      0xdb8 xcp.o
- .debug_line    0x0002a48d      0xa54 xcp_standard.o
- .debug_line    0x0002aee1     0x2407 xcp_daq.o
- .debug_line    0x0002d2e8      0x48c xcp_calibration.o
- .debug_line    0x0002d774      0x285 xcp_fifo.o
- .debug_line    0x0002d9f9      0xcc7 xcp_transport.o
- .debug_line    0x0002e6c0     0x1045 xcp_mem_default.o
- .debug_line    0x0002f705      0x6e6 xcp_drv_rtiostream.o
- .debug_line    0x0002fdeb      0x164 xcp_utils.o
- .debug_line    0x0002ff4f      0x8aa xcp_frame_serial.o
- .debug_line    0x000307f9      0x11f xcp_ext_param_default_serial.o
- .debug_line    0x00030918      0xa40 mw_mbed_interface.o
- .debug_line    0x00031358     0x10a8 BufferedSerial.o
- .debug_line    0x00032400       0xad blapp_support.o
- .debug_line    0x000324ad      0x5db SysTickScheduler.o
- .debug_line    0x00032a88      0x1ca m3m4m4f_multitasking.o
- .debug_line    0x00032c52      0x2ab sys_arch.o
- .debug_line    0x00032efd      0xbc6 rtiostream_serial_mbed.o
+ .debug_line    0x00026534      0x9e9 xcp_ext_mode.o
+ .debug_line    0x00026f1d      0xa3f VibrationTesting.o
+ .debug_line    0x0002795c       0xfd VibrationTesting_data.o
+ .debug_line    0x00027a59      0x734 ert_main.o
+ .debug_line    0x0002818d      0xb0b xcp_ext_common.o
+ .debug_line    0x00028c98      0xaaf xcp_ext_classic_trigger.o
+ .debug_line    0x00029747      0xdb8 xcp.o
+ .debug_line    0x0002a4ff      0xa54 xcp_standard.o
+ .debug_line    0x0002af53     0x2407 xcp_daq.o
+ .debug_line    0x0002d35a      0x48c xcp_calibration.o
+ .debug_line    0x0002d7e6      0x285 xcp_fifo.o
+ .debug_line    0x0002da6b      0xcc7 xcp_transport.o
+ .debug_line    0x0002e732     0x1045 xcp_mem_default.o
+ .debug_line    0x0002f777      0x6e6 xcp_drv_rtiostream.o
+ .debug_line    0x0002fe5d      0x164 xcp_utils.o
+ .debug_line    0x0002ffc1      0x8aa xcp_frame_serial.o
+ .debug_line    0x0003086b      0x11f xcp_ext_param_default_serial.o
+ .debug_line    0x0003098a      0xa40 mw_mbed_interface.o
+ .debug_line    0x000313ca     0x10a8 BufferedSerial.o
+ .debug_line    0x00032472       0xad blapp_support.o
+ .debug_line    0x0003251f      0x5db SysTickScheduler.o
+ .debug_line    0x00032afa      0x1ca m3m4m4f_multitasking.o
+ .debug_line    0x00032cc4      0x2ab sys_arch.o
+ .debug_line    0x00032f6f      0xbc6 rtiostream_serial_mbed.o
 
-.debug_str      0x00000000    0x15ac6
- .debug_str     0x00000000    0x15ac6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/AnalogIn.o
+.debug_str      0x00000000    0x15b12
+ .debug_str     0x00000000    0x15b12 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/AnalogIn.o
                                0x2ba0 (size before relaxing)
- .debug_str     0x00015ac6     0x3865 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CTHUNK~1.O
- .debug_str     0x00015ac6     0x1355 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CALLCH~1.O
- .debug_str     0x00015ac6     0x1070 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/DIGITA~2.O
- .debug_str     0x00015ac6     0x26f3 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FileBase.o
- .debug_str     0x00015ac6     0x15fc C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FILEHA~1.O
- .debug_str     0x00015ac6     0x25d6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FilePath.o
- .debug_str     0x00015ac6     0x4137 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/I2C.o
- .debug_str     0x00015ac6     0x203e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/INTERR~1.O
- .debug_str     0x00015ac6      0xbc9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/PERIPH~1.O
- .debug_str     0x00015ac6     0x2c32 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/Serial.o
- .debug_str     0x00015ac6     0x3972 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~1.O
- .debug_str     0x00015ac6     0x5477 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/Stream.o
- .debug_str     0x00015ac6       0xa5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/except.o
- .debug_str     0x00015ac6      0xdd6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/gpio_api.o
- .debug_str     0x00015ac6      0x836 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/HAL_TI~1.O
- .debug_str     0x00015ac6     0x2026 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/i2c_api.o
- .debug_str     0x00015ac6      0xd52 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_A~4.O
- .debug_str     0x00015ac6      0xbff C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_B~1.O
- .debug_str     0x00015ac6      0x805 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_C~2.O
- .debug_str     0x00015ac6      0x7a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_C~3.O
- .debug_str     0x00015ac6     0x375f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_E~1.O
- .debug_str     0x00015ac6     0x3442 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_F~1.O
- .debug_str     0x00015ac6      0xc28 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_G~1.O
- .debug_str     0x00015ac6      0x723 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_O~2.O
- .debug_str     0x00015ac6     0x3708 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_P~1.O
- .debug_str     0x00015ac6     0x34a2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_P~4.O
- .debug_str     0x00015ac6     0x6992 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_R~1.O
- .debug_str     0x00015ac6      0x81e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_S~1.O
- .debug_str     0x00015ac6     0x367b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_T~2.O
- .debug_str     0x00015ac6      0x9ac C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_U~1.O
- .debug_str     0x00015ac6      0xa2a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_W~1.O
- .debug_str     0x00015ac6      0xfd0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/pinmap.o
- .debug_str     0x00015ac6     0x17c1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~3.O
- .debug_str     0x00015ac6     0x1c60 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~4.O
- .debug_str     0x00015ac6      0x139 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STARTU~1.O
- .debug_str     0x00015ac6      0xf00 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STM32F~1.O
- .debug_str     0x00015ac6      0xfd6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST9275~1.O
- .debug_str     0x00015ac6      0xc83 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STD5D6~1.O
- .debug_str     0x00015ac6     0x1448 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST5BB7~1.O
- .debug_str     0x00015ac6      0xc74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST63F9~1.O
- .debug_str     0x00015ac6      0xbe2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STC4CE~1.O
- .debug_str     0x00015ac6     0x18c2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST4B4D~1.O
- .debug_str     0x00015ac6     0x10ff C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST8A9B~1.O
- .debug_str     0x00015ac6      0xa5d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SYSTEM~1.O
- .debug_str     0x00015ac6      0x831 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SYSTEM~2.O
- .debug_str     0x00015ac6     0x130d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/US_TIC~1.O
- .debug_str     0x00015ac6     0x2d6a MW_I2C.o
- .debug_str     0x00015ac6      0x864 MW_GetPeripheralObjects.o
- .debug_str     0x00015ac6      0xaff xcp_ext_mode.o
- .debug_str     0x00015ac6      0xad9 VibrationTesting.o
- .debug_str     0x00015ac6      0x299 VibrationTesting_data.o
- .debug_str     0x00015ac6      0x760 ert_main.o
- .debug_str     0x00015ac6      0x8a7 xcp_ext_common.o
- .debug_str     0x00015ac6      0x8d4 xcp_ext_classic_trigger.o
- .debug_str     0x00015ac6     0x1362 xcp.o
- .debug_str     0x00015ac6      0xe0b xcp_standard.o
- .debug_str     0x00015ac6     0x15cb xcp_daq.o
- .debug_str     0x00015ac6      0x909 xcp_calibration.o
- .debug_str     0x00015ac6      0x2ef xcp_fifo.o
- .debug_str     0x00015ac6      0x819 xcp_transport.o
- .debug_str     0x00015ac6      0x6a7 xcp_mem_default.o
- .debug_str     0x00015ac6      0x58b xcp_drv_rtiostream.o
- .debug_str     0x00015ac6      0x21c xcp_utils.o
- .debug_str     0x00015ac6      0x68e xcp_frame_serial.o
- .debug_str     0x00015ac6      0x2a2 xcp_ext_param_default_serial.o
- .debug_str     0x00015ac6     0x1811 mw_mbed_interface.o
- .debug_str     0x00015ac6     0x2d28 BufferedSerial.o
- .debug_str     0x00015ac6      0x254 blapp_support.o
- .debug_str     0x00015ac6      0x7d1 SysTickScheduler.o
- .debug_str     0x00015ac6      0x264 m3m4m4f_multitasking.o
- .debug_str     0x00015ac6      0x298 sys_arch.o
- .debug_str     0x00015ac6     0x1c6e rtiostream_serial_mbed.o
+ .debug_str     0x00015b12     0x3865 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CTHUNK~1.O
+ .debug_str     0x00015b12     0x1355 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/CALLCH~1.O
+ .debug_str     0x00015b12     0x1070 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/DIGITA~2.O
+ .debug_str     0x00015b12     0x26f3 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FileBase.o
+ .debug_str     0x00015b12     0x15fc C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FILEHA~1.O
+ .debug_str     0x00015b12     0x25d6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/FilePath.o
+ .debug_str     0x00015b12     0x4137 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/I2C.o
+ .debug_str     0x00015b12     0x203e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/INTERR~1.O
+ .debug_str     0x00015b12      0xbc9 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/PERIPH~1.O
+ .debug_str     0x00015b12     0x2c32 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/Serial.o
+ .debug_str     0x00015b12     0x3972 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~1.O
+ .debug_str     0x00015b12     0x5477 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/Stream.o
+ .debug_str     0x00015b12       0xa5 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/except.o
+ .debug_str     0x00015b12      0xdd6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/gpio_api.o
+ .debug_str     0x00015b12      0x836 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/HAL_TI~1.O
+ .debug_str     0x00015b12     0x2026 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/i2c_api.o
+ .debug_str     0x00015b12      0xd52 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_A~4.O
+ .debug_str     0x00015b12      0xbff C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_B~1.O
+ .debug_str     0x00015b12      0x805 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_C~2.O
+ .debug_str     0x00015b12      0x7a8 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_C~3.O
+ .debug_str     0x00015b12     0x375f C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_E~1.O
+ .debug_str     0x00015b12     0x3442 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_F~1.O
+ .debug_str     0x00015b12      0xc28 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_G~1.O
+ .debug_str     0x00015b12      0x723 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_O~2.O
+ .debug_str     0x00015b12     0x3708 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_P~1.O
+ .debug_str     0x00015b12     0x34a2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_P~4.O
+ .debug_str     0x00015b12     0x6992 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_R~1.O
+ .debug_str     0x00015b12      0x81e C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_S~1.O
+ .debug_str     0x00015b12     0x367b C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_T~2.O
+ .debug_str     0x00015b12      0x9ac C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_U~1.O
+ .debug_str     0x00015b12      0xa2a C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/MBED_W~1.O
+ .debug_str     0x00015b12      0xfd0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/pinmap.o
+ .debug_str     0x00015b12     0x17c1 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~3.O
+ .debug_str     0x00015b12     0x1c60 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SERIAL~4.O
+ .debug_str     0x00015b12      0x139 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STARTU~1.O
+ .debug_str     0x00015b12      0xf00 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STM32F~1.O
+ .debug_str     0x00015b12      0xfd6 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST9275~1.O
+ .debug_str     0x00015b12      0xc83 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STD5D6~1.O
+ .debug_str     0x00015b12     0x1448 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST5BB7~1.O
+ .debug_str     0x00015b12      0xc74 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST63F9~1.O
+ .debug_str     0x00015b12      0xbe2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/STC4CE~1.O
+ .debug_str     0x00015b12     0x18c2 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST4B4D~1.O
+ .debug_str     0x00015b12     0x10ff C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/ST8A9B~1.O
+ .debug_str     0x00015b12      0xa5d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SYSTEM~1.O
+ .debug_str     0x00015b12      0x831 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/SYSTEM~2.O
+ .debug_str     0x00015b12     0x130d C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/US_TIC~1.O
+ .debug_str     0x00015b12     0x2d7d MW_I2C.o
+ .debug_str     0x00015b12      0x877 MW_GetPeripheralObjects.o
+ .debug_str     0x00015b12      0xb12 xcp_ext_mode.o
+ .debug_str     0x00015b12      0xaff VibrationTesting.o
+ .debug_str     0x00015b12      0x2bf VibrationTesting_data.o
+ .debug_str     0x00015b12      0x786 ert_main.o
+ .debug_str     0x00015b12      0x8ba xcp_ext_common.o
+ .debug_str     0x00015b12      0x8e7 xcp_ext_classic_trigger.o
+ .debug_str     0x00015b12     0x1375 xcp.o
+ .debug_str     0x00015b12      0xe1e xcp_standard.o
+ .debug_str     0x00015b12     0x15de xcp_daq.o
+ .debug_str     0x00015b12      0x91c xcp_calibration.o
+ .debug_str     0x00015b12      0x302 xcp_fifo.o
+ .debug_str     0x00015b12      0x82c xcp_transport.o
+ .debug_str     0x00015b12      0x6ba xcp_mem_default.o
+ .debug_str     0x00015b12      0x59e xcp_drv_rtiostream.o
+ .debug_str     0x00015b12      0x22f xcp_utils.o
+ .debug_str     0x00015b12      0x6a1 xcp_frame_serial.o
+ .debug_str     0x00015b12      0x2b5 xcp_ext_param_default_serial.o
+ .debug_str     0x00015b12     0x1824 mw_mbed_interface.o
+ .debug_str     0x00015b12     0x2d3b BufferedSerial.o
+ .debug_str     0x00015b12      0x267 blapp_support.o
+ .debug_str     0x00015b12      0x7e4 SysTickScheduler.o
+ .debug_str     0x00015b12      0x277 m3m4m4f_multitasking.o
+ .debug_str     0x00015b12      0x2ab sys_arch.o
+ .debug_str     0x00015b12     0x1c81 rtiostream_serial_mbed.o
 
 .debug_frame    0x00000000     0x7658
  .debug_frame   0x00000000       0xd0 C:/PROGRA~3/MATLAB/SUPPOR~1/R2024b/toolbox/target/SUPPOR~1/STMNUC~1/mbed/NUCLEO~4/TOOLCH~2/AnalogIn.o

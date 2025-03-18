@@ -33,7 +33,7 @@ volatile boolean_T stopRequested;
 volatile boolean_T runModel;
 int main(void)
 {
-  float modelBaseRate = 0.0001;
+  float modelBaseRate = 0.00125;
   float systemClock = 84;
   extmodeErrorCode_T errorCode = EXTMODE_SUCCESS;
 

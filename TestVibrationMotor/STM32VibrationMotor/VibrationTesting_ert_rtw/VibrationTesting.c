@@ -7,9 +7,9 @@
  *
  * Code generation for model "VibrationTesting".
  *
- * Model version              : 11.8
+ * Model version              : 11.15
  * Simulink Coder version : 24.2 (R2024b) 21-Jun-2024
- * C source code generated on : Mon Mar  3 23:59:03 2025
+ * C source code generated on : Tue Mar 18 21:49:41 2025
  *
  * Target selection: ert.tlc
  * Note: GRT includes extra infrastructure and instrumentation for prototyping
@@ -164,7 +164,7 @@ static void VibrationTesti_SystemCore_setup(mbed_ADXL34xBlock_VibrationTe_T *obj
   obj_1 = obj_0->Device.InterfaceObj;
   i2cModule = obj_0->Device.DeviceAddress;
   b_data[0] = 44U;
-  b_data[1] = (uint8_T)((int32_T)(val & 240U) | 14);
+  b_data[1] = (uint8_T)((int32_T)(val & 240U) | 13);
   MW_I2C_MasterWrite(obj_1->MW_I2C_HANDLE, i2cModule, &b_data[0], 2U, false,
                      false);
   obj_0 = obj->_pobj1.Device;
@@ -285,14 +285,14 @@ void VibrationTesting_initialize(void)
   /* initialize real-time model */
   (void) memset((void *)VibrationTesting_M, 0,
                 sizeof(RT_MODEL_VibrationTesting_T));
-  rtmSetTFinal(VibrationTesting_M, 10.0);
-  VibrationTesting_M->Timing.stepSize0 = 0.0001;
+  rtmSetTFinal(VibrationTesting_M, 5.0);
+  VibrationTesting_M->Timing.stepSize0 = 0.00125;
 
   /* External mode info */
-  VibrationTesting_M->Sizes.checksums[0] = (3173503294U);
-  VibrationTesting_M->Sizes.checksums[1] = (4050732589U);
-  VibrationTesting_M->Sizes.checksums[2] = (2698556034U);
-  VibrationTesting_M->Sizes.checksums[3] = (3921405100U);
+  VibrationTesting_M->Sizes.checksums[0] = (2330032012U);
+  VibrationTesting_M->Sizes.checksums[1] = (2951508531U);
+  VibrationTesting_M->Sizes.checksums[2] = (900202053U);
+  VibrationTesting_M->Sizes.checksums[3] = (3312602696U);
 
   {
     static const sysRanDType rtAlwaysEnabled = SUBSYS_RAN_BC_ENABLE;
