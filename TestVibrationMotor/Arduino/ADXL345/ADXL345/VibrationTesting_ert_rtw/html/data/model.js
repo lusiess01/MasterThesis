@@ -1,1 +1,0 @@
-var modelInfo = {model:"VibrationTesting"};var modelHierarchy=[{model:"VibrationTesting",relativePath:"_internal.html",parent:"null"},];var AddCode = true;var ProtectedModel = false;
