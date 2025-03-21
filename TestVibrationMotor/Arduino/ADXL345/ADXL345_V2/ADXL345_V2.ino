@@ -16,6 +16,7 @@ void setup() {
     }
 
     accel.setRange(ADXL345_RANGE_2_G);
+    accel.setDataRate(ADXL345_DATARATE_1600_HZ);
 
     // Optional header (remove if using fscanf)
     // Serial.println("Time(us),Ax,Ay,Az");

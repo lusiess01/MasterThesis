@@ -7,7 +7,7 @@ clc;
 % Load resting position (baseline)
 rest = load('Ruhelage_2.mat');  % Replace with your filename
 % Load vibration measurement
-data = load('20Hz.mat');  % Replace with your filename
+data = load('40Hz4.mat');  % Replace with your filename
 
 % Select axis for analysis (e.g., Z-axis)
 ref_axis = 'az_data';
