@@ -15,9 +15,9 @@ A = (pi * (d^2)) / 4;
 Re = (rho * l) / A;
 Le=1e-9; 
 
-m = 0.004;      % Masse [kg]
-c = 0.7840;      % Dämpfung [Ns/m]
-k = 100;    % Federkonstante [N/m]
+m = (0.3+0.1+0.4+3.6)/1000;      % Masse [kg]
+c = 0;      % Dämpfung [Ns/m]
+k = 3.775177608796545*1000;    % Federkonstante [N/m]
 
 % Elektrische Parameter
 mm = m;      % Induktivität [H]
