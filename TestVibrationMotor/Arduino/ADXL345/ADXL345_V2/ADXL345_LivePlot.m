@@ -3,10 +3,10 @@ close all;
 clc;
 
 %% === Settings ===
-port = 'COM11';           % <- Adjust this to your serial port
-baudrate = 230400;       % Must match the Arduino's serial speed
+port = 'COM3';           % <- Adjust this to your serial port
+baudrate = 500000;       % Must match the Arduino's serial speed
 plotDuration = 5;        % Duration of displayed window in seconds
-sampleRate = 1000;       % 1000 samples per second (1 ms interval)
+sampleRate = 250;       % 1000 samples per second (1 ms interval)
 bufferSize = plotDuration * sampleRate;
 
 %% === Serial Connection ===

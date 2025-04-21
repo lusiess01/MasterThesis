@@ -3,7 +3,7 @@ close all;
 clc;
 
 %% === Serial Port Settings ===
-port = 'COM11';         % Set correct COM port
+port = 'COM3';         % Set correct COM port
 baudrate = 500000;
 serialObj = serialport(port, baudrate);
 flush(serialObj);
@@ -65,7 +65,7 @@ actual_hz = length(time_data) / elapsed_time;
 fprintf('Effective sampling rate: %.1f Hz\n', actual_hz);
 
 %% === Save data to .mat file ===
-filename = 'adxl345_data.mat';  % You can change this name
+filename = 'xHz_20250418.mat';  % You can change this name
 save(filename, 'time_data', 'ax_data', 'ay_data', 'az_data');
 disp(['Data saved to "', filename, '".']);
 
