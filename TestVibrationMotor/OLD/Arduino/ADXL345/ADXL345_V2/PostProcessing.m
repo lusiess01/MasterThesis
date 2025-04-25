@@ -5,9 +5,9 @@ clc;
 %% === Load Data ===
 
 % Load resting position (baseline)
-rest = load('Ruhelage_20250418.mat');  % Replace with your filename
+rest = load('Ruhelage_20250425.mat');  % Replace with your filename
 % Load vibration measurement
-data = load('xHz_20250418.mat');  % Replace with your filename
+data = load('40Hz_20250425.mat');  % Replace with your filename
 
 % Select axis for analysis (e.g., Z-axis)
 ref_axis = 'az_data';
@@ -24,20 +24,17 @@ rest_signal = rest.(ref_axis);
 vib_signal  = data.(ref_axis);
 
 % Remove DC offset using rest signal
-%vib_corrected = vib_signal - mean(rest_signal);
-vib_corrected = vib_signal;
-%% === Generate 40 Hz reference sine wave ===
-A = max(abs(vib_corrected));     % Match amplitude to measured signal
-f_ref = 40;                      % Reference frequency in Hz
-sine_ref = A * sin(2*pi*f_ref*t);
+vib_corrected = vib_signal - mean(rest_signal);
+%vib_corrected = vib_signal;
 
 %% === Plot time domain ===
 figure;
-plot(t, vib_corrected, 'b', 'DisplayName', 'Measured');
-xlim([0 (1/40)*2])
+plot(t, rest_signal, 'DisplayName', 'Ruhelage');
 hold on;
-%plot(t, sine_ref, 'r', 'DisplayName', '40 Hz Reference');
-title('Measured Signal vs 40 Hz Sine');
+plot(t, vib_signal, 'DisplayName', 'Raw');
+plot(t, vib_corrected, 'DisplayName', 'Corrected');
+hold off;
+title('Measured Signal');
 xlabel('Time [s]');
 ylabel('Amplitude [m/s²]');
 legend;
