@@ -1,0 +1,42 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=108256
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\Ansys Student\\v242\\Win64\\ansysedtsv.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='169.254.96.176'
+			ListenPort='56708'
+			IPAddressVector[2: '192.168.56.1', '10.0.0.44']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=108256
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='169.254.96.176'
+			ListenPort='56708'
+			IPAddressVector[2: '192.168.56.1', '10.0.0.44']
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=108256
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://nb-ematric-sl02:33501/?server=ws://nb-ematric-sl02:32989&token=e49a4da6-21e8-04a8-0822-14417f625b4f&startTab=monitor/graph'
+		SecureUrl='https://nb-ematric-sl02:33757/?server=wss://nb-ematric-sl02:33245&token=e49a4da6-21e8-04a8-0822-14417f625b4f&startTab=monitor/graph'
+		WsHost='nb-ematric-sl02'
+		WsPort=32989
+		WssPort=33245
+		Token='e49a4da6-21e8-04a8-0822-14417f625b4f'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'

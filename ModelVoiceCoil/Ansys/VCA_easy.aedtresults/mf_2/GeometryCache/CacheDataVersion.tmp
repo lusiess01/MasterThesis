@@ -1,0 +1,9 @@
+$begin 'CacheDataVersion'
+	DataVersion=35
+$end 'CacheDataVersion'
+$begin 'VariableValues'
+	N='40'
+	wire='0.05mm'
+	coil='6mm'
+	m='2.4mm'
+$end 'VariableValues'

@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='coil=\'6mm\' m=\'2.3999999999999999mm\' N=\'40\' wire=\'0.050000000000000003mm\''
+		Status=true
+		FileName='VI662243788174829466925.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'

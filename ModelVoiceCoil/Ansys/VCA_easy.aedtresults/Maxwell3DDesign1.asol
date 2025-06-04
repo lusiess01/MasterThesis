@@ -1,0 +1,181 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002025, month=000000000006, day=000000000004, hour=000000000022, min=000000000022, sec=000000000026)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000004909, lin=000000000160, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock14'
+	SolutionName='AdaptivePass'
+	SolutionID=271
+	V=516
+	$begin 'States'
+		F(VID=410, Ver=516)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PAR'
+		NextUniqueID=17
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=1
+			Ver=2
+			PAR(VID=410, Ver=2, File='DV410_SOL271_PAR1_V2.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'PD'
+		NextUniqueID=166
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=12
+			PD(VID=410, Ver=12, File='DV410_SOL271_PD0_V12.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=12
+			PD(VID=410, Ver=12, File='DV410_SOL271_PD1_V12.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=410, Ver=516, File='DV410_SOL271_NFSP10_V516.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock14'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock4'
+	'SolutionKey(SimSetup=270, Instance=\'SetupDefinition\', Solution=-1, VersionID=420)'='SolutionBlock8'
+	'SolutionKey(SimSetup=270, Instance=\'SolutionDefinition\', Solution=271, VersionID=516)'='SolutionBlock14'
+	'SolutionKey(SimSetup=270, Instance=\'SolutionDefinition\', Solution=272, VersionID=516)'='SolutionBlock15'
+	'SolutionKey(SimSetup=270, Instance=\'coil=\\\'6mm\\\' m=\\\'2.3999999999999999mm\\\' N=\\\'40\\\' wire=\\\'0.050000000000000003mm\\\'\', Solution=-3, VersionID=420)'='SolutionBlock13'
+$end 'BlockMapName'
+$begin 'SolutionBlock15'
+	SolutionName='LastAdaptive'
+	SolutionID=272
+	V=516
+	$begin 'States'
+		F(VID=410, Ver=516)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'Fields'
+		IDDblMap(511, -1)
+		$begin 'DataMap'
+			VID=410
+			Ver=516
+			Field(DblID=511, Dir='DV410_SOL272_V516.Field511/')
+		$end 'DataMap'
+	$end 'Fields'
+	$begin 'PAR'
+		NextUniqueID=18
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=1
+			Ver=2
+			PAR(VID=410, Ver=2, File='DV410_SOL272_PAR1_V2.sd')
+		$end 'SubData'
+	$end 'PAR'
+	$begin 'PD'
+		NextUniqueID=177
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=12
+			PD(VID=410, Ver=12, File='DV410_SOL272_PD0_V12.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=12
+			PD(VID=410, Ver=12, File='DV410_SOL272_PD1_V12.sd')
+		$end 'SubData'
+	$end 'PD'
+$end 'SolutionBlock15'
+$begin 'SolutionBlock8'
+	SimSetupID=270
+	SimSetupName='Setup1'
+	VersionID=420
+	SolveSetupID=1
+	$begin 'CurrMeshes'
+		IDDblMap(413, -1)
+		$begin 'DataMap'
+			VID=410
+			Ver=420
+			M(DblID=413, Dir='DV410_S270_V420.cmesh413/')
+		$end 'DataMap'
+	$end 'CurrMeshes'
+	$begin 'MeshOps'
+		OPS(VID=410, Ver=420, ID=3)
+	$end 'MeshOps'
+	$begin 'LastPassNumbers'
+		LP(VID=410, Ver=420, P=8)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=410, Ver=420, File='DV410_S270_V420.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=410, Ver=420, Dir='DV410_S270_MI0_V420.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock8'
+$begin 'SolutionBlock4'
+	ProductName=''
+	CircuitName='Maxwell3DDesign1'
+	VersionID=379
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1090
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='coil=\'6mm\' m=\'2.3999999999999999mm\' N=\'40\' wire=\'0.050000000000000003mm\'', ID=410)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=410, Ver=379, Dir='DV410_V379.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock13'
+	ConvSetupName='ms'
+	MaxPasses='10'
+	MinPasses='2'
+	ConvTarget='(1, 1)'
+	ConvTargetConsecPasses='N/A'
+	ConvCurrentConsecPasses='N/A'
+	c(p=1, te=9.844936615759843e-05, tet=955, de_ee='(13.116, N/A)', ee=13.11619325117534)
+	c(p=2, de=2.459119636923145, te=9.602837846199056e-05, tet=1247, de_ee='(5.97, 2.4591)', ee=5.969981873772308)
+	c(p=3, de=2.48008930041679, te=9.364678892239099e-05, tet=1629, de_ee='(3.5465, 2.4801)', ee=3.546544341270248)
+	c(p=4, de=0.9948776079997967, te=9.271511798879129e-05, tet=2122, de_ee='(2.5971, 0.99488)', ee=2.597053045777825)
+	c(p=5, de=0.7639914486403786, te=9.200678241576008e-05, tet=2768, de_ee='(1.9479, 0.76399)', ee=1.947859921196551)
+	c(p=6, de=0.8494645197373162, te=9.122521744338629e-05, tet=3606, de_ee='(1.2052, 0.84946)', ee=1.205193553842522)
+	c(p=7, de=75.00000000000001, te=2.272540227241033e-05, tet=4696, de_ee='(0.83689, 75)', ee=0.8368857481714194)
+	c(p=8, de=0.1663398198080308, te=2.268760087921975e-05, tet=6110, de_ee='(0.63696, 0.16634)', ee=0.6369601567184953)
+$end 'SolutionBlock13'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock13(pos=3837, lin=144, lvl=0)
+		SolutionBlock14(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1234, lin=44, lvl=0)
+		SolutionBlock15(pos=1813, lin=51, lvl=0)
+		SolutionBlock8(pos=2707, lin=96, lvl=0)
+		SolutionBlock4(pos=3345, lin=125, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=4909, lin=160, lvl=0)
+	$end '$index$'
+$end '$index$'

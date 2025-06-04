@@ -1,0 +1,5 @@
+IsBigEndian false
+$begin 'ManagedFiles'
+	ValidationCache[0:]
+	svcache[4: 'HDR0D8F9344417478562483.tmp', 'min4ADE98728174786105415.tmp', 'min4ADE98728174786105416.tmp', 'min4ADE98728174786105417.tmp']
+$end 'ManagedFiles'

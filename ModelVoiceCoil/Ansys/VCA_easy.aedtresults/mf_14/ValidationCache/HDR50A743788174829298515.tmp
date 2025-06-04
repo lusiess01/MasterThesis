@@ -1,0 +1,7 @@
+$begin 'ValidationCache'
+	$begin 'OneValidationResult'
+		Variation='current_sweep=\'500mA\''
+		Status=true
+		FileName='VI48C55355217490650139.tmp'
+	$end 'OneValidationResult'
+$end 'ValidationCache'
