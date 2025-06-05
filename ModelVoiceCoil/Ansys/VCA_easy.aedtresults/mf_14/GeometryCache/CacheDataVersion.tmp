@@ -1,6 +1,0 @@
-$begin 'CacheDataVersion'
-	DataVersion=-1
-$end 'CacheDataVersion'
-$begin 'VariableValues'
-	current_sweep='500mA'
-$end 'VariableValues'
