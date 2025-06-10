@@ -23,3 +23,6 @@ k = 3.775177608796545*1000;    % Federkonstante [N/m]
 mm = m;      % Induktivität [H]
 rm = c;      % Widerstand [Ohm]
 cm = 1/k;    % Kapazität [F]
+
+% Transfer function
+% Blackbox and with box
