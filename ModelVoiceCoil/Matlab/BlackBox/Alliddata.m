@@ -5,7 +5,7 @@ clc
 
 %% === Einstellungen ===
 ordnungszahl = 2;                          % Modellordnung
-frequenzen = 40:5:100;                     % Frequenzen [Hz]
+frequenzen = 10:5:100;                     % Frequenzen [Hz]
 datenOrdner = 'Data';                      % Ordner mit MAT-Dateien
 daten = cell(length(frequenzen),1);        % iddata-Objekte
 modelle = cell(length(frequenzen),1);      % identifizierte Modelle
