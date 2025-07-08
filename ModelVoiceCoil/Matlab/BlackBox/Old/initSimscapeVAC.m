@@ -10,7 +10,7 @@ l = 5.672;       % berechnete Drahtlänge (m)
 dia = 0.0001;    % Durchmesser des Drahtes (m)
 
 % Querschnittsfläche des Drahtes
-A = (pi * (d^2)) / 4;
+A = (pi * (dia^2)) / 4;
 
 Re = (rho * l) / A;
 Le=181e-6; 
