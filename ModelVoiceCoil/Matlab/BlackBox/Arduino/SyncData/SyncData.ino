@@ -70,7 +70,7 @@ void setup() {
     while (1);
   }
 
-  accel.setRange(ADXL345_RANGE_4_G);
+  accel.setRange(ADXL345_RANGE_16_G);
   accel.setDataRate(ADXL345_DATARATE_1600_HZ);
 
   Serial.println("READY");

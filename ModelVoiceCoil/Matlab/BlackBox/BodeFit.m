@@ -3,7 +3,7 @@ close all
 clc
 
 %% === Einstellungen ===
-datenOrdner = 'Data';                     % Ordner mit .mat-Dateien
+datenOrdner = '36g';                     % Ordner mit .mat-Dateien
 frequenzen = 10:5:100;                    % Frequenzen in Hz
 anzahl = length(frequenzen);             % Anzahl der Messungen
 response = zeros(1, anzahl);             % Komplexe Frequenzgangswerte
@@ -54,7 +54,7 @@ title('Bode-Diagramm der gemessenen Frequenzgangdaten');
 grid on;
 
 %% === Transferfunktion mit tfest fitten ===
-np = 3;  % Anzahl Pole
+np = 2;  % Anzahl Pole
 nz = 0;  % Anzahl Nullstellen
 
 opt = tfestOptions;
