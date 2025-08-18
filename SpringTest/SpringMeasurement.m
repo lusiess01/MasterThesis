@@ -29,16 +29,33 @@ y_fit_poly = polyval(p, x_fit);       % Non-linear fit
 y_fit_linear = polyval(p_linear, x_fit); % Linear fit
 
 % Plot raw data and fits
-figure;
-scatter(displacement_mm, force, 'o', 'MarkerEdgeColor', 'b'); % Raw data
-hold on;
-plot(x_fit, y_fit_poly, 'r-', 'LineWidth', 1.5);  % Non-linear fit
-plot(x_fit, y_fit_linear, 'g--', 'LineWidth', 1.5); % Linear approximation
-xlabel('Displacement [mm]');
-ylabel('Force [N]');
-title('Force-Displacement Diagram: Progressive vs. Linear Spring');
-legend('Measured Data', 'Non-linear Fit', 'Linear Approximation');
+% figure;
+% scatter(displacement_mm, force, 'o', 'MarkerEdgeColor', 'b'); % Raw data
+% hold on;
+% plot(x_fit, y_fit_poly, 'r-', 'LineWidth', 1.5);  % Non-linear fit
+% plot(x_fit, y_fit_linear, 'g--', 'LineWidth', 1.5); % Linear approximation
+% xlabel('Displacement [mm]');
+% ylabel('Force [N]');
+% title('Force-Displacement Diagram: Progressive vs. Linear Spring');
+% legend('Measured Data', 'Non-linear Fit', 'Linear Approximation');
+% grid on;
+
+figure('Name', 'Raw Data', 'NumberTitle', 'off');
+
+p1 = scatter(displacement_mm, force, 'o', 'MarkerEdgeColor', 'k');
+% axis([0 300 0 3.5]); 
 grid on;
+
+% axis
+xlabel('$$l\rm{\,/\,mm}$$', 'Interpreter', 'latex','fontsize', 14)         
+ylabel('$$F\rm{\,/\,N}$$', 'Interpreter','latex','fontsize', 14)
+
+hold on;
+p2 = plot(x_fit, y_fit_poly, 'k', "Linestyle", '-', 'LineWidth', 1);
+p3 = plot(x_fit, y_fit_linear, 'k', "Linestyle", '--', 'LineWidth', 1);
+
+legend({'Measured Data', 'Non-linear Fit', 'Linear Approximation'},'Location','best');
+
 
 % Display the effective spring constant
 fprintf('The approximated linear spring constant is: %.4f N/mm\n', k_eff);
