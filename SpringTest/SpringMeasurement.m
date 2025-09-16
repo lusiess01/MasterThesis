@@ -4,29 +4,63 @@ close all
 clc
 
 % Read CSV file
-data = readtable('Federmessung_20250320.csv');
+data4 = readtable('Federmessung_4_20250913.csv');
+data3 = readtable('Federmessung_3_20250913.csv');
+data2 = readtable('Federmessung_2_20250913.csv');
 
-% Assumption: The first column contains displacement in mm, the second column contains force in N
-displacement_mm = data{:, 1}; % Column 1: Displacement (mm)
-force = data{:, 2};           % Column 2: Force (N)
+%% Data 4
+% Annahme: Spalte 1 = Weg [mm], Spalte 2 = Kraft [N]
+displacement_mm4 = data4{:,1};
+force4           = data4{:,2};
 
-% Convert displacement to meters if needed for calculations
-displacement_m = displacement_mm / 1000; % Convert mm to m
+displacement_m4  = displacement_mm4/1000;    % mm -> m
 
-% Polynomial regression for progressive spring (higher order)
-poly_order = 3; % Use cubic fit for non-linear behavior
-p = polyfit(displacement_mm, force, poly_order);
+poly_order4  = 3;                             % kubische Anpassung
+p4          = polyfit(displacement_mm4, force4, poly_order4);
 
-% Linear regression (first-order polynomial for linear approximation)
-p_linear = polyfit(displacement_mm, force, 1); % k_eff = slope
+p_linear4   = polyfit(displacement_mm4, force4, 1);  % linear
+k_eff4      = p_linear4(1);                          % N/mm
 
-% Effective spring constant (slope of the linear fit)
-k_eff = p_linear(1); % Unit: N/mm
+x_fit4       = linspace(min(displacement_mm4), max(displacement_mm4), 100);
+y_fit_poly4  = polyval(p4, x_fit4);
+y_fit_linear4= polyval(p_linear4, x_fit4);
 
-% Generate fit curves
-x_fit = linspace(min(displacement_mm), max(displacement_mm), 100);
-y_fit_poly = polyval(p, x_fit);       % Non-linear fit
-y_fit_linear = polyval(p_linear, x_fit); % Linear fit
+
+%% Data 3
+% Annahme: Spalte 1 = Weg [mm], Spalte 2 = Kraft [N]
+displacement_mm3 = data3{:,1};
+force3           = data3{:,2};
+
+displacement_m3  = displacement_mm3/1000;
+
+poly_order3  = 3;
+p3          = polyfit(displacement_mm3, force3, poly_order3);
+
+p_linear3   = polyfit(displacement_mm3, force3, 1);
+k_eff3      = p_linear3(1);
+
+x_fit3       = linspace(min(displacement_mm3), max(displacement_mm3), 100);
+y_fit_poly3  = polyval(p3, x_fit3);
+y_fit_linear3= polyval(p_linear3, x_fit3);
+
+
+%% Data 2
+% Annahme: Spalte 1 = Weg [mm], Spalte 2 = Kraft [N]
+displacement_mm2 = data2{:,1};
+force2           = data2{:,2};
+
+displacement_m2  = displacement_mm2/1000;
+
+poly_order2  = 3;
+p2          = polyfit(displacement_mm2, force2, poly_order2);
+
+p_linear2   = polyfit(displacement_mm2, force2, 1);
+k_eff2      = p_linear2(1);
+
+x_fit2       = linspace(min(displacement_mm2), max(displacement_mm2), 100);
+y_fit_poly2  = polyval(p2, x_fit2);
+y_fit_linear2= polyval(p_linear2, x_fit2);
+
 
 % Plot raw data and fits
 % figure;
@@ -40,9 +74,10 @@ y_fit_linear = polyval(p_linear, x_fit); % Linear fit
 % legend('Measured Data', 'Non-linear Fit', 'Linear Approximation');
 % grid on;
 
+%%
 figure('Name', 'Raw Data', 'NumberTitle', 'off');
 
-p1 = scatter(displacement_mm, force, 'o', 'MarkerEdgeColor', 'k');
+p1 = plot(displacement_mm4, force4, "k", "Linestyle", '-', 'LineWidth', 1);
 % axis([0 300 0 3.5]); 
 grid on;
 
@@ -51,13 +86,16 @@ xlabel('$$l\rm{\,/\,mm}$$', 'Interpreter', 'latex','fontsize', 14)
 ylabel('$$F\rm{\,/\,N}$$', 'Interpreter','latex','fontsize', 14)
 
 hold on;
-p2 = plot(x_fit, y_fit_poly, 'k', "Linestyle", '-', 'LineWidth', 1);
-p3 = plot(x_fit, y_fit_linear, 'k', "Linestyle", '--', 'LineWidth', 1);
+p2 = plot(displacement_mm3, force3, "k", "Linestyle", '--', 'LineWidth', 1);
+ 
+p3 = plot(displacement_mm2, force2, "k", "Linestyle", '-.', 'LineWidth', 1);
 
-legend({'Measured Data', 'Non-linear Fit', 'Linear Approximation'},'Location','best');
+legend({'four connections', 'three connections', 'two connections'},'Location','best');
 
 
 % Display the effective spring constant
-fprintf('The approximated linear spring constant is: %.4f N/mm\n', k_eff);
+fprintf('The approximated linear spring constant is: %.4f N/mm\n', k_eff4);
+fprintf('The approximated linear spring constant is: %.4f N/mm\n', k_eff3);
+fprintf('The approximated linear spring constant is: %.4f N/mm\n', k_eff2);
 % disp('Linear force-displacement equation:');
 % disp(poly2sym(p_linear));

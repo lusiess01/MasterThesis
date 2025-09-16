@@ -24,9 +24,10 @@ fprintf("Ursprüngliche Resonanzfrequenz: %.2f Hz\n", wn / (2*pi));
 fprintf("m = %.4f kg, d = %.4f Ns/m, k = %.2f N/m\n", m0, d0, k0);
 
 % === Benutzerdefinierte Offsets ===
-offset_m = 4.84;
+%offset_m = 4.84;
+offset_m = 1;
 offset_d = 1;
-offset_k = 1;
+offset_k = 0.2;
 
 % Neue Parameter berechnen
 m = m0 * offset_m;
