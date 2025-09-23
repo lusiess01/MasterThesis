@@ -6,7 +6,7 @@
 #define I2S_WS_IO           22
 #define I2S_DO_IO           25
 
-#define TONE_FREQ           80
+#define TONE_FREQ           40
 #define TABLE_SIZE          1024
 int16_t sineTable[TABLE_SIZE];
 

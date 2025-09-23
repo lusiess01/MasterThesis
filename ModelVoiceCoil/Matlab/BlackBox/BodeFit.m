@@ -3,7 +3,7 @@ close all
 clc
 
 %% === Einstellungen ===
-datenOrdner = '36g';                     % Ordner mit .mat-Dateien
+datenOrdner = 'Data';                     % Ordner mit .mat-Dateien
 frequenzen = 10:5:100;                    % Frequenzen in Hz
 anzahl = length(frequenzen);             % Anzahl der Messungen
 response = zeros(1, anzahl);             % Komplexe Frequenzgangswerte
